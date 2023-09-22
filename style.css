@@ -1,0 +1,53 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: small;
+}
+  .main{
+    width: 30vw;
+    margin: auto;
+      margin-top: 50px;
+
+      border: 2px solid rgb(29, 12, 12);
+      border-radius: 10px;
+      padding: 6px;
+      background-color: rgb(115, 118, 86);
+  }
+  .h2{
+    margin-left: 4vw;
+    font-weight: bolder;
+  }
+  .image{
+    width: 100%;
+    object-fit: fill;
+    border-radius: 10px;
+
+  }
+  
+    .btn{
+      width: 17vw;
+      margin-left: 4vw;
+      text-align: center;
+      font-weight: bolder;
+      padding: 9px 18px;
+      border-radius: 17px;
+      border: none;
+      background-color: rgb(230, 15, 87);
+      color: black;
+      margin: 5px auto;
+      cursor: pointer;
+    }
+  .btn:hover{
+    width: 50%;
+    box-shadow: none;
+background-color: rgb(255, 0, 183);
+  }
+  @media only screen and (max-width:500px){
+    .main{
+        background-color: lightblue;
+        width:40vw ;
+    }
+    h1{
+        text-align: center;
+        font-size: smaller;
+    }
+}
